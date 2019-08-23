@@ -33,9 +33,7 @@ $(document).ready(function() {
 	 * changes the color of the header when scrolling below 50px
 	 */
   $(document).scroll(function () {
-    let nav = $('.header');
-    console.log('scrolled')
-    nav.toggleClass('scrolled', $(this).scrollTop() > 50);
+    $('.header').toggleClass('scrolled', $(this).scrollTop() > 50);
   });
 
 

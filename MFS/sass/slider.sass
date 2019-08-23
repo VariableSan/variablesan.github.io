@@ -1,0 +1,58 @@
+@import "colors"
+
+.slider
+	position: relative
+	.arrow
+		position: absolute
+		top: 0
+		left: 0
+		padding: 5px 13px
+		margin: 5px
+		font-size: 26px
+		border-radius: 55px
+		background-color: rgba($color-dark, 0.4)
+		transition: all 0.5s
+		color: darken($color-white, 50%)
+		&:hover
+			color: $color-white
+			background-color: rgba($color-dark, 0.8)
+
+	.item
+		height: 100vh
+		display: flex
+		justify-content: center
+		align-items: center
+		flex-basis: 25%
+
+		color: white
+		font-size: 2rem
+		text-shadow: 0px 0px 10px #000
+
+		background-color: $color-gray
+		// background-attachment: fixed
+
+		transition: all 0.9s
+		&:hover
+			flex-basis: 100%
+
+		&1
+			background: url(../img/1.jpg) no-repeat 50% 30%
+			background-size: cover
+			// background-attachment: fixed
+		&2
+			background: url(../img/2.jpg) no-repeat 50% 30%
+			background-size: cover
+			// background-attachment: fixed
+		&3
+			background: url(../img/3.jpg) no-repeat 80% 30%
+			background-size: cover
+			// background-attachment: fixed
+		&4
+			background: url(../img/4.jpg) no-repeat 65% 30%
+			background-size: cover
+			// background-attachment: fixed
+
+	@media(min-width: 360px) and (max-width: 768px)
+		.arrow
+			font-size: 16px
+			padding: 5px 10px

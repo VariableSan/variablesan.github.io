@@ -1,0 +1,313 @@
+body {
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content: space-between;
+	border: 1px solid #222431;
+	background-color: #1d1f2b;
+}
+
+.block1 {
+	width: 374px;
+	height: 1080px;
+	display: flex;
+	flex-direction: column;
+	/*background-color: white;*/
+	/*justify-content: space-between;*/
+	/*margin: auto;*/
+	/*align-items: center;*/
+}
+
+.setka1 {
+	width: 377px;
+	height: 74px;
+	/*background-color: #ffffff;*/
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-right: 1px solid #f0b016;
+}
+
+.container1 {
+	width: 330px;
+	height: 30px;
+	display: flex;
+	justify-content: space-between;
+	/*background-color: yellow;*/
+}
+
+.container1 p {
+	margin: 0 0 0 55px;
+	width: 80px;
+	height: 12px;
+	font-size: 14px;
+	text-align: right;
+}
+
+.container1 img {
+	width: 192px;
+	height: 28px;
+}
+
+/* Серикжанов Ильяс */
+.setka2 {
+	width: 377px;
+	height: 166px;
+	border-top: 1px solid #f0b016;
+	border-right: 1px solid #f0b016;
+	display: flex;
+	align-items: center;
+}
+
+.container2 {
+	width: 218px;
+	height: 110px;
+	/*background-color: yellow;*/
+	margin: 0 0 0 37px;
+}
+
+.serikzhanov {
+	font-size: 24px;
+	margin: 0 auto;
+}
+
+.container2_1 {
+	width: 218px;
+	height: 24px;
+	padding-top: 40px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: center;
+	/*margin: 0 auto;*/
+}
+
+.container2_1 p {
+	margin: auto;
+	font-size: 20px;
+}
+
+.container2_1 img {
+	width: 24px;
+	height: 23px;
+
+}
+
+.container2_2 {
+	width: 175px;
+	height: 23px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: center;
+	/*margin: 0 auto;*/
+}
+
+.container2_2 img {
+	width: 20px;
+	height: 21px;
+	margin: 12px 0 0 2px;
+}
+
+.container2_2 p {
+	margin: 0 auto;
+	font-size: 20px;
+}
+
+/* холодная вода */
+.setka3 {
+	width: 377px;
+	height: 216px;
+	border-top: 1px solid #f0b016;
+	border-right: 1px solid #f0b016;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container3 {
+	width: 295px;
+	height: 118px;
+	/*background-color: #ffffff;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+/* Style for "00000.000" */
+.container3 h1 {
+	width: 330px;
+	height: 43px;
+}
+
+
+.container3_1 {
+	width: 181px;
+	height: 25px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.container3_1 p {
+	margin: auto;
+	font-size: 24px;
+}
+
+.container3_1 img {
+	width: 19px;
+	height: 24px;
+}
+
+/*горячая вода*/
+.setka4 {
+	width: 377px;
+	height: 216px;
+	border-top: 1px solid #f0b016;
+	border-right: 1px solid #f0b016;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container4 {
+	width: 295px;
+	height: 118px;
+	/*background-color: #ffffff;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.container4_1 {
+	width: 181px;
+	height: 25px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.container4_1 p {
+	margin: auto;
+	font-size: 24px;
+}
+
+.container4_1 img {
+	width: 19px;
+	height: 24px;
+}
+
+/*газ*/
+.setka5 {
+	width: 377px;
+	height: 216px;
+	border-top: 1px solid #f0b016;
+	border-right: 1px solid #f0b016;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container5 {
+	width: 295px;
+	height: 118px;
+	/*background-color: #ffffff;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.container5_1 {
+	width: 70px;
+	height: 25px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.container5_1 p {
+	margin: auto;
+	font-size: 24px;
+}
+
+.container5_1 img {
+	width: 19px;
+	height: 24px;
+}
+
+
+.setka6 {
+	width: 377px;
+	height: 216px;
+	border-top: 1px solid #f0b016;
+	border-right: 1px solid #f0b016;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/*электричество*/
+.container6 {
+	width: 295px;
+	height: 118px;
+	/*background-color: #ffffff;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.container6_1 {
+	width: 190px;
+	height: 25px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.container6_1 p {
+	margin: auto;
+	font-size: 24px;
+}
+
+.container6_1 img {
+	width: 19px;
+	height: 24px;
+}
+
+.block2 {
+	width: 1543px;
+	height: 1080px;
+	display: flex;
+	justify-content: space-between;
+	/*flex-direction: column;*/
+	/*margin: auto;*/
+	/*background-color: gray;*/
+	/*align-items: center;*/
+}
+
+
+
+@font-face {
+font-family: 'DIN Alternate';
+font-style: normal;
+font-weight: normal;
+src: local('DIN Alternate Bold'), url('fonts/DINAlternate-Bold.woff') format('woff');
+}
+
+p {color: #ffffff; font-family: "DIN Alternate"; font-weight: 700;}
+span {color: #f0b016;}
+
+.block1 sup {color: #f0b016;}
+/* Style for "м" */
+
+.sup_first {
+	width: 19px;
+	height: 19px;
+	font-size: 36px;
+	letter-spacing: -3px;
+	vertical-align: 90%;
+}
+/* Style for "3" */
+
+.sup_second {
+	width: 9px;
+	height: 13px;
+	font-size: 18px;
+	vertical-align: 70%;
+}
+
+h1 {color: #ffffff; font-family: "DIN Alternate"; font-weight: 700; letter-spacing: -1px; font-size: 60px;}

@@ -1,0 +1,925 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600&subset=cyrillic');
+h1{font-family: "Open Sans", sans-serif;}
+/*p{font-family: "Open Sans", sans-serif;}*/
+h3{font-family: "Open Sans", sans-serif;}
+h2{font-family: "Open Sans", sans-serif;}
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+/*див для сетки*/
+.block1 {
+	width: 100%;
+	height: 785px;
+	background-color: #f8f9fb;
+	margin: auto;
+}
+
+/*див для топ лайна*/
+.setka {
+	width: 1139px;
+	height: calc(100% - 33px);
+	/*background-color: white;*/
+	margin: auto;
+	padding-top: 33px;
+}
+
+/*шапка*/
+.top_line {
+	width: 80%;
+	height: 35px;
+	/*background-color: black;*/
+	margin-left: 130px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.top_line a {
+	color: #3c78ff;
+}
+
+/*шапка*/
+.top_line img {
+	height: 22px;
+}
+
+/*див для текст центра*/
+.mid_text {
+	width: 830px;
+	height: 215px;
+	/*background-color: black;*/
+	margin: 114px auto 0 auto;
+}
+
+/*в первой сетке для картинки*/
+.bot_line {
+	width: 750px;
+	height: 294px;
+	margin: 58px auto 0 auto;
+	/*background-color: black;*/
+}
+
+/*див для сетки2*/
+.block2 {
+	width: 100%;
+	height: 378px;
+	margin: auto;
+	/*display: flex;*/
+}
+
+/*див для флекса*/
+.setka2 {
+	justify-content: space-between;
+	display: flex;
+	width: 1139px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+/*флексный раздел*/
+.info_block {
+	margin-top: 95px;
+	width: 100%;
+	/*height: 185px;*/
+	/*background: black;*/
+	margin-left: 50px;
+	/*align-items: center;*/
+}
+
+/* Style for "ILP может" */
+.text_H3 {
+	width: 342px;
+	height: 35px;
+	color: #101934;
+	font-family: Open Sans, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+
+}
+
+/*для картинок в info_block*/
+.info_block img {
+	margin-left: 110px; 
+}
+
+/* Style for "Найдем все" */
+.text_H1 {
+	width: 269px;
+	height: 35px;
+	color: #101934;
+	font-family: Open Sans, sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	text-transform: uppercase;
+	/*margin-right: 50px; */
+	/*padding-top: 19px;*/
+}
+
+.info_block p {
+	width: 270px;
+	text-align: center;
+}
+
+
+
+/*класс для войти*/
+.log {
+	width: 81px;
+	height: 100%;
+	align-items: center;
+	border-radius: 3px;
+	border: 1px solid #3c78ff; 
+	justify-content: center;
+	display: flex;
+}
+
+/*для войти*/
+.top_line a {
+	text-decoration: none;
+	font-family: Open Sans, sans-serif;
+}
+
+/*для войти*/
+.top_line div:hover {
+	color: white;
+	background-color: #3c78ff;
+	/*border-radius: 15px;*/
+}
+
+/*Текст в центре*/
+.text_center {
+	width: 830px;
+	height: 76px;
+	color: #101934;
+	font-family: "Open Sans", sans-serif;
+	font-size: 34px;
+	font-weight: 700;
+	text-align: center;
+}
+
+/* стиль для ILP сам отфильтрует бла бла */
+.text_bot {
+	width: 652px;
+	height: 44px;
+	color: #101934;
+	font-family: "Open Sans", sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	text-align: center;
+	margin: auto;
+}
+
+/*как это работает регистрация*/
+.click_links {
+	justify-content: center;
+	display: flex;
+	/*width: 100%;*/
+	/*height: 80px;*/
+}
+
+
+/* стиль для текста как это работает */
+.explain {
+	width: 160px;
+	height: 35px;
+	border-radius: 3px;
+	border: 1px solid #3c78ff;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+}
+
+/*отступ для текста как это работает*/
+.how_this_work {
+	margin-right: 10px;
+	color: #3c78ff;
+}
+
+/*ховер для как это работает*/
+.how_this_work:hover {
+	color: white;
+	background-color: #3c78ff;
+}
+
+/*для регистрации*/
+.registration {
+	background-color: #3c78ff;
+	color: white;
+}
+
+/*ховер для регистрации*/
+.registration:hover {
+	color: #3c78ff;
+	background-color: white;
+}
+
+/*стиль для ссылок*/
+a {
+	text-decoration: none;
+}
+
+/*для третьего блока*/
+.block3 {
+	width: 100%;
+	height: 639px;
+	box-shadow: inset 0 -1px 0 rgba(232, 233, 235, 0.5);
+	background-color: #f8f9fb;
+	margin: auto;
+}
+
+.setka3 {
+	width: 1300px;
+	height: 313px;
+	/*background-color: black;*/
+	margin: 0 auto;	
+	padding-top: 103px;
+}
+
+/* Style for "Как мы это" */
+.how_we_do p {
+	width: 311px;
+	height: 28px;
+	color: #101934;
+	font-family: "Open Sans", sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	text-align: center;
+	margin: 0 auto;
+}
+
+/*див для space1 и text_lefth2*/
+.container1 {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.space1 {
+	width: calc((100% - 190px)/2);
+	/*background-color: black;*/
+	height: 193px;
+	padding-top: 91px;
+}
+
+/* Style for "По вашему запросу находим резюме" */
+.text_left h2 {
+	width: 424px;
+	height: 19px;
+	color: #101934;
+	font-family: "Open Sans", sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	text-transform: uppercase;
+	/*text-align: right;*/
+	margin-left: 90px;
+}
+
+/* Style for "ILP подключен к 5 работным сайтам" */
+.text_left h3 {
+	width: 415px;
+	height: 56px;
+	color: #101934;
+	font-family: "Open Sans", sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 20px;
+	/*text-align: right;*/
+	margin-left: 90px;
+}
+
+/*для иконок в caontainer1*/
+.icons_left {
+	width: 415px;
+	display: flex;
+	justify-content: space-between;
+	margin-left: 90px;
+	padding-top: 64px;
+}
+
+/*flex content*/
+.icons_flex {
+	/*width: calc((100% - 20px)/5);*/
+	height: 35px;
+	/*margin: 0 auto;*/
+}
+
+/*.form-inner input[type="submit"] {
+  margin-top: 30px;
+  background: #f69a73;
+  border-bottom: 4px solid #d87d56;
+  color: white;
+  font-size: 14px;
+}*/
+
+.form-inner input {
+  padding: 0 20px;
+  margin-bottom: 10px;
+  background: #ffffff;
+  line-height: 40px;
+  border-width: 0;
+  border: 1px solid #ececec;
+  border-radius: 5px;
+  box-shadow: 0 3px 24px rgba(0, 0, 0, 0.05);
+  font-family: "Open Sans", sans-serif;
+}
+ 
+.input_imp {
+	width: 409px;
+	height: 102px;
+}
+
+.form-inner input[type="text"] {
+	width: 182px;
+	height: 70px;
+}
+
+/* Style for "PHP програ" */
+.form-inner input[type="email"]::-webkit-input-placeholder {
+	width: 150px;
+	height: 30px;
+	color: #abacae;
+	font-family: "Open Sans", sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+}
+
+input[type="email"] {
+	color: #3c78ff;
+	height: 90px;
+	font-family: "Open Sans", sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+}
+
+/* Style for "Город" */
+.form-inner input[type="text"]::-webkit-input-placeholder {
+	width: 50px;
+	height: 25px;
+	color: #abacae;
+	font-family: "Open Sans", sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+}
+
+input[type="text"] {
+	color: #3c78ff;
+	height: 25px;
+	font-family: "Open Sans", sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+}
+
+.block4 {
+	width: 100%;
+	height: 828px;
+	padding-top: 200px;
+	margin: auto;
+}
+
+.setka4 {
+	width: 1300px;
+	height: 719px;
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+	padding-top: 105px;
+}
+
+/*.setka4_flex {
+	width: calc((100% - 36px)/2);
+	margin: auto;
+}*/
+
+/* Style for "Помимо это" */
+.setka4 h1 {
+	width: 376px;
+	height: 29px;
+	color: #101934;
+	font-family: "Open Sans", sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+}
+
+/* Style for "Удалять ду" */
+.info_block2 h2 {
+	width: 450px;
+	height: 14px;
+	color: #101934;
+	font-family: "Open Sans", sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+/* Style for "При поиске" */
+.info_block2 h3 {
+	width: 470px;
+	height: 56px;
+	color: #101934;
+	font-family: "Open Sans";
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 20px;
+	padding-top: 18px;
+}
+
+/*inside setka4*/
+.container2 {
+	padding-top: 57px;
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+	margin-left: 70px;
+	/*align-items: center;*/
+}
+
+.setka4_flex {width: calc((100% - 100px)/2);}
+
+.img_right {
+	width: 760px;
+    height: 800px;
+    overflow: hidden;
+}
+
+.img_right img {
+	padding-top: 150px;
+	width: 900px;
+    height: 700px;
+    /*margin: -100px 0 0 -100px;*/
+}
+
+.info_block2 {
+	padding-top: 20px;
+	/*margin: 0 0 0 50px;*/
+}
+
+.block5 {
+	width: 100%;
+	height: 600px;
+	box-shadow: inset 0 -1px 0 rgba(232, 233, 235, 0.5);
+	background-color: #ffffff;
+	margin: auto;
+}
+
+.setka5 {
+	width: 1139px;
+	height: 273px;
+	padding-top: 180px;
+	/*background-color: black;*/
+	margin: 0 auto;
+	/*display: flex;
+	justify-content: center;*/
+}
+
+/* Style for "Мы делаем" */
+.setka5 h1 {
+	width: 411px;
+	height: 31px;
+	color: #101934;
+	font-family: "Open Sans", sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	margin: 0 auto;
+}
+
+/* Style for "Мы поможем" */
+.setka5 h3 {
+	width: 850px;
+	height: 41px;
+	color: #101934;
+	font-family: "Open Sans", sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	margin: 0 auto;
+	padding-top: 16px;
+	text-align: center;
+}
+
+/*числа для Мы делаем подбор проще*/
+.container3 {
+	width: 100%;
+	height: 86px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.container3 div[class=""] {
+	width: calc((100% - 30px)/3);
+	/*background-color: black;*/
+	padding-top: 99px;
+}
+
+/* Style for "2300" */
+.container3 h1 {
+	width: 90px;
+	height: 30px;
+	color: #3c78ff;
+	font-family: "Open Sans", sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+/* Style for "интерьвью" */
+.container3 h3 {
+	width: 344px;
+	height: 36px;
+	color: #101934;
+	font-family: "Open Sans", sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 20px;
+	/*margin-left: auto;*/
+}
+
+.million {margin-right: 120px;}
+
+.thousand {margin-right: 60px;}
+
+/* Style for "bg" */
+.block6 {
+	width: 100%;
+	height: 344px;
+	background-color: #f8f9fb;
+	margin: auto;
+}
+
+.setka6 {
+	width: 1139px;
+	height: 128px;
+	padding-top: 108px;
+	/*margin-left: 45px;*/
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	margin: auto;
+}
+
+/* Style for "ILP внедре" */
+.setka6 h1 {
+	width: 229px;
+	height: 30px;
+	color: #101934;
+	font-family: "Open Sans", sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	/*text-align: center;*/
+}
+
+/* Style for "Logos" */
+.setka6 img {
+	width: 583px;
+	height: 42px;
+	/*background-color: #34363a;*/
+	/*opacity: 0.2;*/
+	padding-top: 56px;
+}
+
+.block7 {
+	width: 100%;
+	height: 860px;
+	background-color: #ffffff;
+	margin: auto;
+}
+
+.setka7 {
+	width: 1139px;
+	height: 690px;
+	padding-top: 101px;
+	/*margin: 55px;*/
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: top;
+}
+
+/* Style for "Выберите у" */
+.setka7_text h1 {
+	width: 411px;
+	height: 32px;
+	color: #101934;
+	font-family: "Open Sans";
+	font-size: 30px;
+	font-weight: 700;
+	text-align: center;
+}
+
+/* Style for "и платите" */
+.setka7_text h3 {
+	width: 350px;
+	height: 17px;
+	color: #101934;
+	font-family: "Open Sans";
+	font-size: 20px;
+	font-weight: 400;
+	text-align: center;
+	margin: auto;
+}
+
+.setka7_flex {
+	width: 1200px;
+	height: 700px;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 89px;
+}
+
+.setka7_flex div[class=""] {
+	width: calc((100% - 228px)/3);
+	height: 428px;
+	padding-top: 50px;
+	text-align: center;
+	/*background-color: black;*/
+	/*margin: 0 auto;*/
+	/*margin-left: 130px;*/
+	/*width: 360px;*/
+}
+
+/* Style for "base" */
+.setka7_flex div[class=""]:hover {
+	width: 360px;
+	height: 428px;
+	box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+	background-color: #ffffff;
+}
+
+/* Style for "Старт" */
+.setka7_flex h1 {
+	/*width: 45px;*/
+	/*height: 12px;*/
+	color: #3c78ff;
+	font-family: "Open Sans", sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 20px;
+	text-transform: uppercase;
+}
+
+/* Style for "990 a" */
+.setka7_flex h3 {
+	/*width: 65px;*/
+	/*height: 20px;*/
+	color: #101934;
+	font-family: "Open Sans", sans-serif;
+	font-size: 25px;
+	font-weight: 400;
+	line-height: 20px;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+/* Style for "45 отклико" */
+.setka7_flex p {
+	/*width: 121px;*/
+	/*height: 55px;*/
+	color: #abacae;
+	font-family: "Open Sans";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 40px;
+}
+
+/* Style for "base" */
+.setka7_flex h2 {
+	width: 200px;
+	height: 30px;
+	color: #3c78ff;
+	font-family: "Open Sans", sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	border-radius: 3px;
+	border: 1px solid #3c78ff;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.setka7_flex div[class=""]:hover h2 {
+	background-color: #3c78ff;
+	color: white;
+}
+
+/* Style for "bg" */
+.block8 {
+	width: 100%;
+	height: 927px;
+	background-color: #f8f9fb;
+	margin: auto;
+	/*padding-top: 97px;*/
+}
+
+.setka8 {
+	width: 1000px;
+	height: 735px;
+	padding-top: 103px;
+	/*background-color: black;*/
+	/*margin: 0 0 0 150px;*/
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.setka8 img {
+	width: 928px;
+	height: 420px;
+}
+
+/* Style for "Нужно боль" */
+.setka8 h1 {
+	width: 404px;
+	height: 31px;
+	color: #101934;
+	font-family: "Open Sans", sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	padding-top: 80px;
+	/*text-align: center;*/
+	margin: auto;
+}
+
+/* Style for "Оставьте з" */
+.setka8 h3 {
+	width: 500px;
+	height: 20px;
+	color: #101934;
+	font-family: "Open Sans", sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	margin: 0 0 0 35px;
+	padding-top: 14px;
+}
+
+.setka8 :nth-child(3) {padding-top: 41px;}
+
+.setka8_box {
+	width: 576px;
+	height: 85px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-radius: 5px;
+	vertical-align: baseline;
+	background-color: white;
+}
+
+.setka8_box:hover {
+	box-shadow: 0 3px 32px rgba(0, 0, 0, 0.05);
+}
+
+.setka8_box input[type=tel] {
+	width: 300px;
+	height: 70px;
+	font-family: "Open Sans", sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	/*text-transform: uppercase;*/
+	outline: none;
+	border: none;
+	margin: 0 20px 0 20px;
+}
+
+/* Style for "Оставить з" */
+.setka8_box input[type=submit] {
+	border: none;
+	outline: none;
+	background-color: white;
+	width: 155px;
+	height: 19px;
+	color: #3c78ff;
+	font-family: "Open Sans", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	text-transform: uppercase;
+	margin: 0 20px 0 20px;
+	cursor: pointer;
+}
+
+/*.setka8_box input[type=submit]:hover {
+	color: white;
+	background-color: #3c78ff;
+}*/
+
+/*style for телефона*/
+.setka8_box input[type=tel]::-webkit-input-placeholder {
+	width: 69px;
+	height: 30px;
+	color: #abacae;
+	font-family: "Open Sans", sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+/* Style for "line" */
+.setka8_line {
+	width: 2px;
+	height: 35px;
+	background-color: #f8f9fb;
+}
+
+/* Style for "Мы гаранти" */
+.setka8 p {
+	width: 482px;
+	height: 34px;
+	opacity: 0.5;
+	color: #abacae;
+	font-family: "Open Sans", sans-serif
+	font-size: 15px;
+	font-weight: 400;
+	text-align: center;
+}
+
+.block_last {
+	width: 100%;
+	height: 144px;
+	margin: auto;
+	/*display: flex;*/
+	/*justify-content: space-between; */
+}
+
+.setka_last {
+	width: 100%;
+	height: 144px;
+	margin: auto;
+	/*background-color: black;*/
+	/*margin: auto;*/
+}
+
+.last_flex1 {
+	width: 100%;
+	background-color: #3c78ff;
+
+}
+
+/* Style for "bg Blue" */
+.setka_last_b {
+	width: 1139px;
+	height: 74px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	/*justify-content: space-between;*/
+	margin: auto;
+}
+
+/* Style for "О нас" */
+.setka_last_b a {
+	/*width: px;*/
+	height: 15px;
+	color: #ffffff;
+	font-family: "Open Sans", sans-serif;
+	font-size: 13px;
+	font-weight: 400;
+	/*text-align: center;*/
+	/*align-items: center;*/
+	/*line-height: 17.96px;*/
+}
+
+.setka_last_b a:hover {
+	text-decoration: underline;
+}
+
+.setka_last_db {
+	width: 100%;
+	height: 70px;
+	/*margin: auto;*/
+	background-color: #101934;
+	display: flex;
+	align-items: center;
+}
+
+.sldb_flex {
+	width: 1150px;
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+}
+
+.icons_flex2 {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: flex-end;
+	width: 100px;
+}
+
+.icons_flex2 a {margin: auto;}
+
+/* Style for "© 2016-201" */
+.sldb_flex p {
+	width: 400px;
+	height: 15px;
+	color: #ffffff;
+	font-family: "Open Sans", sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+}

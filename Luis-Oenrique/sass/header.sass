@@ -1,0 +1,95 @@
+@import "colors.sass"
+
+.header
+	margin-bottom: 6.8125rem
+	background: url("../img/header/bg_element_.png") 70% 100% no-repeat
+	background-color: $bg-gray
+	@media(max-width: 768px)
+		background-size: cover
+	&-nav
+		margin-bottom: 3.0rem
+		@media(max-width: 768px)
+			height: 50%
+	a
+		text-decoration: none
+		&:focus
+			outline: none
+	.container
+		padding-top: 2.5rem
+	.link
+		img
+			margin-bottom: 0.625rem
+		p
+			// Style for "OENRIQUE"
+			margin: 0
+			height: 0.8125rem
+			color: #000000
+			font-family: "Times New Roman"
+			font-size: 0.875em
+			font-weight: 400
+			line-height: 0.995em
+			text-transform: uppercase
+			// Text style for "OENRIQUE"
+			letter-spacing: 2.4px
+		h6
+			// Style for "UX/UI EXPE"
+			height: 0.25rem
+			color: #000000
+			font-family: Lato
+			font-size: 0.25em
+			font-weight: 400
+			line-height: 0.995em
+			text-transform: uppercase
+			// Text style for "UX/UI EXPE"
+			letter-spacing: 2.04px
+	.active_link
+		&::after
+			content: ''
+			display: block
+			width: 100%
+			height: 0.0625rem
+			transform: translateY(8px) scale(1)
+			background-color: rgba($gray, 0.5)
+			@media(max-width: 768px)
+				transform: scale(0)
+	&-link
+		margin-bottom: 10.9375rem
+		a
+			color: $gray
+			&::after
+				content: ''
+				display: block
+				width: 100%
+				height: 0.0625rem
+				transform: translateY(8px) scale(0)
+				background-color: rgba($gray, 0.5)
+				transition: all 0.5s
+			&:hover
+				&::after
+					transform: translateY(8px) scale(1)
+
+	&-menu
+		h1
+			// Style for "Luis Oenri"
+			margin: 0
+			color: $gray
+			font-family: Asap, sans-serif
+			font-size: 4.0625em
+			font-weight: 500
+		p
+			// Style for "User Exper"
+			margin-bottom: 1.75rem
+			color: rgba($gray, 0.5)
+			font-family: Asap, sans-serif
+			font-size: 1.0625em
+			font-weight: 500
+		&_img
+			img
+				width: 100%
+				height: 30rem
+				transform: translateX(-3.75rem)
+				@media(max-width: 768px)
+					height: 100%
+					transform: translateX(-2.5rem)
+		&_txt
+			margin-bottom: 3rem

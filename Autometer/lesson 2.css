@@ -1,0 +1,495 @@
+body {
+	width: 1920px;
+	height: 1080px;
+	padding: 0;
+	margin: 0 auto;
+	display: flex;
+	/*justify-content: space-between;*/
+	border: 1px solid #222431;
+	background-color: #1d1f2b;
+}
+
+.block1 {
+	width: 374px;
+	height: 1080px;
+	display: flex;
+	flex-direction: column;
+	/*background-color: white;*/
+	/*justify-content: space-between;*/
+	/*margin: auto;*/
+	/*align-items: center;*/
+}
+
+.setka1 {
+	width: 377px;
+	height: 74px;
+	/*background-color: #ffffff;*/
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-right: 1px solid #f0b016;
+}
+
+.container1 {
+	width: 330px;
+	height: 30px;
+	display: flex;
+	justify-content: space-between;
+	/*background-color: yellow;*/
+}
+
+.container1 p {
+	margin: 0 0 0 55px;
+	width: 80px;
+	height: 12px;
+	font-size: 14px;
+	text-align: right;
+}
+
+.container1 img {
+	width: 192px;
+	height: 28px;
+	color: white;
+}
+
+/* Серикжанов Ильяс */
+.setka2 {
+	width: 377px;
+	height: 166px;
+	border-top: 1px solid #f0b016;
+	border-right: 1px solid #f0b016;
+	display: flex;
+	align-items: center;
+}
+
+.container2 {
+	width: 218px;
+	height: 110px;
+	/*background-color: yellow;*/
+	margin: 0 0 0 37px;
+}
+
+.serikzhanov {
+	font-size: 24px;
+	margin: 0 auto;
+}
+
+.container2_1 {
+	width: 218px;
+	height: 24px;
+	padding-top: 40px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: center;
+	/*margin: 0 auto;*/
+}
+
+.container2_1 p {
+	margin: auto;
+	font-size: 20px;
+}
+
+.container2_1 img {
+	width: 24px;
+	height: 23px;
+
+}
+
+.container2_2 {
+	width: 175px;
+	height: 23px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: center;
+	/*margin: 0 auto;*/
+}
+
+.container2_2 img {
+	width: 20px;
+	height: 21px;
+	margin: 12px 0 0 2px;
+}
+
+.container2_2 p {
+	margin: 0 auto;
+	font-size: 20px;
+}
+
+/* холодная вода */
+.setka3 {
+	width: 377px;
+	height: 216px;
+	border-top: 1px solid #f0b016;
+	border-right: 1px solid #f0b016;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container3 {
+	width: 295px;
+	height: 118px;
+	/*background-color: #ffffff;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+/* Style for "00000.000" */
+.container3 h1 {
+	width: 330px;
+	height: 43px;
+}
+
+
+.container3_1 {
+	width: 181px;
+	height: 25px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.container3_1 p {
+	margin: auto;
+	font-size: 24px;
+}
+
+.container3_1 img {
+	width: 19px;
+	height: 24px;
+}
+
+/*горячая вода*/
+.setka4 {
+	width: 377px;
+	height: 216px;
+	border-top: 1px solid #f0b016;
+	border-right: 1px solid #f0b016;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container4 {
+	width: 295px;
+	height: 118px;
+	/*background-color: #ffffff;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.container4_1 {
+	width: 181px;
+	height: 25px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.container4_1 p {
+	margin: auto;
+	font-size: 24px;
+}
+
+.container4_1 img {
+	width: 19px;
+	height: 24px;
+}
+
+/*газ*/
+.setka5 {
+	width: 377px;
+	height: 216px;
+	border-top: 1px solid #f0b016;
+	border-right: 1px solid #f0b016;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container5 {
+	width: 295px;
+	height: 118px;
+	/*background-color: #ffffff;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.container5_1 {
+	width: 70px;
+	height: 25px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.container5_1 p {
+	margin: auto;
+	font-size: 24px;
+}
+
+.container5_1 img {
+	width: 19px;
+	height: 24px;
+}
+
+
+.setka6 {
+	width: 377px;
+	height: 216px;
+	border-top: 1px solid #f0b016;
+	border-right: 1px solid #f0b016;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/*электричество*/
+.container6 {
+	width: 295px;
+	height: 118px;
+	/*background-color: #ffffff;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.container6_1 {
+	width: 190px;
+	height: 25px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.container6_1 p {
+	margin: auto;
+	font-size: 24px;
+}
+
+.container6_1 img {
+	width: 19px;
+	height: 24px;
+}
+
+.block2 {
+	width: 1543px;
+	height: 1080px;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 0 0 0;
+	/*background-color: gray;*/
+	/*flex-direction: column;*/
+	/*margin: auto;*/
+	/*align-items: center;*/
+}
+
+.colona1 {margin: 0 auto 0 18px;}
+.colona1 span[class=tenge] {color: #518ecc;}
+.colona1 sup {color: #518ecc;}
+
+.colona2 {margin: 0 auto 0 19px;}
+.colona2 span[class=tenge] {color: #cc5151;}
+.colona2 sup {color: #cc5151;}
+
+.colona3 {margin: 0 auto 0 19px;}
+.colona3 span[class=tenge] {color: #51cc7f;}
+.colona3 sup {color: #51cc7f;}
+
+.colona4 {margin: 0 13px 0 19px;}
+.colona4 span[class=tenge] {color: #ccbf51;}
+.colona4 sup {color: #ccbf51;}
+
+
+
+@font-face {
+font-family: 'DIN Alternate';
+font-style: normal;
+font-weight: normal;
+src: local('DIN Alternate Bold'), url('fonts/DINAlternate-Bold.woff') format('woff');
+}
+
+p {color: #ffffff; font-family: "DIN Alternate"; font-weight: 700;}
+span {color: #f0b016;}
+
+.block1 sup {color: #f0b016;}
+/* Style for "м" */
+
+.sup_first {
+	width: 19px;
+	height: 19px;
+	font-size: 36px;
+	letter-spacing: -3px;
+	vertical-align: 90%;
+}
+/* Style for "3" */
+
+.sup_second {
+	width: 9px;
+	height: 13px;
+	font-size: 18px;
+	vertical-align: 70%;
+}
+
+h1 {color: #ffffff; font-family: "DIN Alternate"; font-weight: 700; letter-spacing: -1px; font-size: 60px;}
+
+.toptext {
+	font-size: 20px;
+	height: 62px;
+	width: 160px;
+	display: flex;
+	align-items: center;
+	/*justify-content: space-between;*/
+	/*margin: 0 auto;*/
+}
+
+.toptext p {
+	margin: auto;
+}
+
+.toptext img {
+	width: 19px;
+	height: 23px;
+	margin: 0 auto;
+}
+
+.colona {
+	width: 364px; 
+	height: 1080px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.pblue {color: #518ecc;}
+.pred {color: #cc5151;}
+.pgreen {color: #51cc7f;}
+.pyellow {color: #ccbf51;}
+
+/*для блоков в block2*/
+.content {
+	width: 364px;
+	height: 164px;
+	border: 1px solid #262836;
+	background-color: #262836;
+}
+
+.lastend {
+	width: 364px;
+	height: 117px;
+}
+
+.ct_inside {
+	width: 300px;
+	height: 92px;
+	display: flex;
+	flex-direction: column;
+	margin: 0 0 0 24px;
+	/*justify-content: center;*/
+}
+
+.pclear {
+	width: 150px;
+	height: 15px;
+	color: #838383;
+	font-family: Roboto;
+	font-size: 16px;
+	font-weight: 300;
+}
+
+.sup2_first {
+	width: 16px;
+	height: 15px;
+	color: #518ecc;
+	font-family: "DIN Alternate";
+	font-size: 30px;
+	font-weight: 700;
+	vertical-align: 90%;
+}
+
+.sup2_first_V {font-size: 24px;}
+
+.sup2_second {
+	width: 8px;
+	height: 11px;
+	color: #518ecc;
+	font-family: "DIN Alternate";
+	font-size: 16px;
+	font-weight: 700;
+	vertical-align: 90%;
+}
+
+h2 {
+	width: 193px;
+	height: 34px;
+	color: #ffffff;
+	font-family: "DIN Alternate";
+	font-size: 48px;
+	font-weight: 700;
+	margin: auto;
+	text-align: center;
+}
+
+h3 {
+	width: 165px;
+	height: 22px;
+	color: #838383;
+	font-family: "DIN Alternate";
+	font-size: 30px;
+	margin: 35px 0 0 0;
+}
+
+.jc_h2_h3 {
+	display: flex;
+	justify-content: space-between;
+	width: 340px;
+}
+
+.tenge {font-family: Helvetica; font-weight: 400;}
+.tenge_clear {font-family: Helvetica; font-weight: 400; color: #838383;}
+
+.lastend {
+	width: 364px;
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.charge_icon {
+	width: 108px;
+	height: 57px;
+	margin: 0 auto;
+}
+
+.charge_icon img {
+	margin: 0 0 0 5px;
+}
+
+.wifi_icon {
+	width: 140px;
+	height: 61px;
+	margin: 0 auto;
+}
+
+.wifi_icon img {
+	margin: 0 0 0 5px;
+}
+
+.disable_red {color: #ff0000;}
+
+.jc_p {
+	width: 270px;
+	height: 28px;
+	display: flex;
+	justify-content: space-between;
+	margin: 40px 0 0 18px;
+}
+
+.jc_p p {
+	width: 100px;
+	text-align: center;
+}
+
+.ptrafic {
+	font-size: 14px;
+	font-weight: 700;
+}

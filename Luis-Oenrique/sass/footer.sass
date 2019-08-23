@@ -1,0 +1,74 @@
+@import "colors.sass"
+
+.footer
+	background: url('../img/say-hello/contact_bg.jpg') no-repeat
+	background-size: cover
+	background-color: rgba(33, 33, 33, 0.69)
+	.say-hello
+		h1
+			// Style for "sAY HELLO!"
+			height: 34px
+			padding-top: 145px
+			margin-bottom: 95px
+			color: rgba($white, 0.9)
+			font-family: Asap
+			font-size: 46px
+			font-weight: 700
+			line-height: 49px
+			text-transform: uppercase
+			// Text style for "sAY HELLO!"
+			letter-spacing: 5.52px
+		input
+			// Style for "Name"
+			width: 370px
+			height: 57px
+			padding-left: 10px
+			margin-bottom: 29px
+			background-color: $white
+		textarea
+			width: 768px
+			height: 207px
+			padding-top: 20px
+			padding-left: 10px
+			margin-bottom: 30px
+			background-color: $white
+		button
+			display: block
+			margin: auto
+		&_form
+			margin-bottom: 58px
+		&_allRight
+			padding-top: 33px
+			padding-bottom: 33px
+			border-top: 1px solid rgba($white, 0.5)
+
+
+.input-name
+	margin-right: 22px
+
+
+.reserved
+	width: 75%
+	text-align: center
+	p
+		// Style for "2017. All"
+		height: 16px
+		color: $white
+		font-family: Montserrat
+		font-size: 16px
+		font-weight: 400
+		line-height: 67px
+		// Text style for "2017. All"
+		letter-spacing: 0.96px
+
+@media(max-width: 768px)
+	input
+		width: 100% !important
+		margin-right: 0 !important
+	textarea
+		width: 100% !important
+	.links
+		width: 100%
+		text-align: center
+	.reserved
+		width: 100%

@@ -1,0 +1,23 @@
+@import "colors"
+@import "mixin"
+
+
+html
+	font-family: "Roboto", sans-serif	
+
+.main
+	&-text
+		&__img
+			margin-bottom: 10px
+			padding-top: 55px
+			margin-top: -55px
+			background-clip: content-box
+			/*&:target
+				padding-top: 50px*/
+		&__title
+			margin-bottom: 10px
+		&__subtitle
+			margin-bottom: 30px
+	.main-text_border
+		border-bottom: 1px solid lighten(purple, 55%)
+		margin-bottom: 60px

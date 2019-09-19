@@ -113,7 +113,7 @@ $(() => {
 		// а также класс adv_Clicked
 		$(array[1]).addClass('advantages_clicked')
 		$(bgImg).css({
-			'background-image': `url(../img/advantages/big-background-1.jpg)`,
+			'background-image': `url(../app/img/advantages/big-background-1.jpg)`,
 			'background-repeat': 'no-repeat'
 		})
 
@@ -124,7 +124,7 @@ $(() => {
 		$(array[index]).on('click', function() {
 			$(this).addClass('advantages_clicked').siblings().removeClass('advantages_clicked')
 			$(bgImg).css({
-				'background-image': `url(../img/advantages/big-background-${index}.jpg)`,
+				'background-image': `url(../app/img/advantages/big-background-${index}.jpg)`,
 				'background-repeat': 'no-repeat',
 				'background-attachment': 'fixed'
 			})

@@ -1,0 +1,46 @@
+@import "sections/**/*.sass"
+@import "normalize"
+
+img
+	max-width: 100%
+	height: auto
+
+*
+	box-sizing: border-box
+
+html, body
+	font-family: 'Merriweather', sans-serif
+	height: 2500px
+
+.container
+	+container
+
+.container-full
+	+container-full
+	max-width: 100% !important
+	padding: 0
+
+.particles-js
+	position: absolute
+	width: 100%
+	height: 100%
+	z-index: 2
+
+.btn
+	padding: 13px 22px
+
+	border: 2px solid $secondary
+	border-radius: 20px
+
+	font-size: 11px
+	font-weight: 700
+	color: $headline-color
+
+	letter-spacing: 1px
+	text-transform: uppercase
+	cursor: pointer
+	transition: 0.5s
+
+	&:hover
+		background-color: transparent
+		color: $secondary

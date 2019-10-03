@@ -26,8 +26,47 @@
         <div class="intro__text">
           <h2 class="intro__title">JavaScript</h2>
           <p class="intro__subtitle">In JavaScript, there is a beautiful, elegant, highly expressive language that is buried under a steaming pile of good intentions and blunders.</p>
-          <input class="btn intro__btn" type="button" value="Discover more">
+          <input class="btn intro__btn" type="button" value="Discover more" href="#history">
         </div>
+      </div>
+    </div>
+  </div>
+  <div class="wrapper">
+    <div class="section history" id="history">
+      <div class="container">
+        <div class="section-block history-block">
+          <div class="history__img image" data-image></div>
+          <div class="history__text">
+            <h3 class="history__title" data-title>title from history</h3>
+            <p class="history__subtitle" data-subtitle>subtitle from history</p>
+            <p class="history__secret" data-secret>secret from history</p>
+          </div>
+          <button class="show-modal-btn">Learn more</button>
+        </div>
+      </div>
+    </div>
+    <div class="section statistics">
+      <div class="container">
+        <div class="section-block statistics-block">
+          <div class="statistics__img" data-image></div>
+          <div class="statistics__text">
+            <h3 class="statistics__title" data-title>Title from statistics</h3>
+            <p class="statistics__subtitle" data-subtitle>subtitle from statistics</p>
+            <p class="statistics__secret" data-secret>secret from statistics</p>
+          </div>
+          <button class="show-modal-btn">Learn more</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal" id="modal">
+    <div class="container">
+      <div class="modal-block">
+        <div class="modal__img" id="modalImg"></div>
+        <h3 class="modal__title" id="modalTitle">Modal title</h3>
+        <p class="modal__content" id="modalContent">Modal content</p>
+        <p class="modal__secret" id="modalSecret">Modal secret</p>
+        <button class="modal__btn" id="modalBtn">close</button>
       </div>
     </div>
   </div>
@@ -37,6 +76,5 @@
     
   </script>
   <script src="../js/particles.min.js"></script>
-  <script src="../js/internals.js"></script>
   <script src="../js/main.js"></script>
 </body>

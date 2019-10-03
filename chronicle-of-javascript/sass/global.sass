@@ -10,7 +10,6 @@ img
 
 html, body
 	font-family: 'Merriweather', sans-serif
-	height: 2500px
 
 .container
 	+container
@@ -44,3 +43,16 @@ html, body
 	&:hover
 		background-color: transparent
 		color: $secondary
+
+
+.hidden-scroll
+	overflow-y: hidden
+
+
+.section
+	&-block
+		padding-top: 40px
+	&:not(:last-child)
+		.section-block
+			padding-bottom: 15px
+			border-bottom: 1px solid $main-color

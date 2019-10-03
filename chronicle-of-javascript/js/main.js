@@ -9,7 +9,7 @@ $(() => {
 
 	// offLinksProperty()	
 	activeHeadBurger()
-	particlesEffect()
+	// particlesEffect()
 	showModalWindow()
 	anchorToSection()
 

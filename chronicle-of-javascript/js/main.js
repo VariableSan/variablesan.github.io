@@ -7,7 +7,7 @@ $(() => {
 				body = $('body')
 
 
-	offLinksProperty()	
+	// offLinksProperty()	
 	activeHeadBurger()
 	// particlesEffect()
 	showModalWindow()
@@ -36,7 +36,7 @@ $(() => {
 
 	function showModalWindow(){
 		showModalBtn.on('click', function() {
-			modal.addClass('modal--shown')
+			modal.addClass('modal--shown').show()
 			body.addClass('hidden-scroll')
 			let image = $(this).prevAll('*[data-image]').css('background-image')
 			$('#modalImg').css('background-image', image)
@@ -45,13 +45,13 @@ $(() => {
 			$('#modalSecret').text($(this).prev().children('*[data-secret]').text())
 		})
 		modalBtn.on('click', function () {
-			modal.removeClass('modal--shown')
+			modal.removeClass('modal--shown').hide()
 			body.removeClass('hidden-scroll')
 		})
 	} 
 
 	function anchorToSection(){
-		$('.intro__btn').on('click', function() {
+		$('*[href^="#"]').on('click', function() {
 			let target = $(this).attr('href')
 			$('body, html').animate({
 				scrollTop: $(target).offset().top

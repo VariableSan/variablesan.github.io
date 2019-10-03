@@ -5,7 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="author" content="JudgementHC">
     <link rel="icon" href="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.brandcrowd.com%2Fgallery%2Fbrands%2Fpictures%2Fpicture1421850692679.png&amp;f=1&amp;nofb=1">
-    <title>Javascript</title><link href="https://fonts.googleapis.com/css?family=Merriweather:400,700&display=swap" rel="stylesheet"> 
+    <title>Javascript</title>
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700&amp;display=swap" rel="stylesheet">
+    <link href="../css/slick.css" rel="stylesheet">
+    <link href="../css/slick-theme.css" rel="stylesheet">
+    <link href="../css/magnific-popup.css" rel="stylesheet">
     <link href="../css/main.css" rel="stylesheet">
   </head>
 </html>
@@ -39,7 +43,7 @@
           <div class="history__text">
             <h3 class="history__title" data-title>title from history</h3>
             <p class="history__subtitle" data-subtitle>subtitle from history</p>
-            <p class="history__secret" data-secret>secret from history</p>
+            <div class="history__secret" data-secret>secret from history</div>
           </div>
           <button class="show-modal-btn">Learn more</button>
         </div>
@@ -52,9 +56,79 @@
           <div class="statistics__text">
             <h3 class="statistics__title" data-title>Title from statistics</h3>
             <p class="statistics__subtitle" data-subtitle>subtitle from statistics</p>
-            <p class="statistics__secret" data-secret>secret from statistics</p>
+            <div class="statistics__secret" data-secret>
+              <div class="statistics__secret-img" href="../img/statistics/2019-stat.png"><img src="../img/statistics/2019-stat.png"></div>
+            </div>
           </div>
           <button class="show-modal-btn">Learn more</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section uses">
+    <div class="container">
+      <div class="section-block uses-block">
+        <div class="uses__slider">
+          <div class="uses__item" style="background-image: url('../img/uses/bgImg-1.jpg')">
+            <div class="uses__text">
+              <h3 class="uses__title">Web Development</h3>
+              <p class="uses__subtitle">JavaScript is a client scripting language which is used for creating web pages</p>
+            </div>
+          </div>
+          <div class="uses__item" style="background-image: url('../img/uses/bgImg-2.jpg')">
+            <div class="uses__text">
+              <h3 class="uses__title">Web Applications</h3>
+              <p class="uses__subtitle">With technology browsers and personal computers have improved to an extent that a language was required to create robust web applications</p>
+            </div>
+          </div>
+          <div class="uses__item" style="background-image: url('../img/uses/bgImg-3.jpg')">
+            <div class="uses__text">
+              <h3 class="uses__title">Presentations</h3>
+              <p class="uses__subtitle">JavaScript also provides the facility of creating presentations as a website</p>
+            </div>
+          </div>
+          <div class="uses__item" style="background-image: url('../img/uses/bgImg-4.jpg')">
+            <div class="uses__text">
+              <h3 class="uses__title">Server Applications</h3>
+              <p class="uses__subtitle">Node JS is built on Chrome’s Javascript runtime for building fast and scalable network applications</p>
+            </div>
+          </div>
+          <div class="uses__item" style="background-image: url('../img/uses/bgImg-5.jpg')">
+            <div class="uses__text">
+              <h3 class="uses__title">Web Servers</h3>
+              <p class="uses__subtitle">The servers built on Node JS are very fast and do not use buffering and transfers chunks of data</p>
+            </div>
+          </div>
+          <div class="uses__item" style="background-image: url('../img/uses/bgImg-6.jpg')">
+            <div class="uses__text">
+              <h3 class="uses__title">Games</h3>
+              <p class="uses__subtitle">The combination of JavaScript and HTML5 makes JavaScript popular in games development as well</p>
+            </div>
+          </div>
+          <div class="uses__item" style="background-image: url('../img/uses/bgImg-7.jpg')">
+            <div class="uses__text">
+              <h3 class="uses__title">Art</h3>
+              <p class="uses__subtitle">Using the HTML5 in JavaScript drawing graphics on a web page has become easier</p>
+            </div>
+          </div>
+          <div class="uses__item" style="background-image: url('../img/uses/bgImg-8.jpg')">
+            <div class="uses__text">
+              <h3 class="uses__title">Smartwatch Applications</h3>
+              <p class="uses__subtitle">Javascript being the most used language is because it is being used in all possible devices and applications</p>
+            </div>
+          </div>
+          <div class="uses__item" style="background-image: url('../img/uses/bgImg-9.jpg')">
+            <div class="uses__text">
+              <h3 class="uses__title">Mobile Applications</h3>
+              <p class="uses__subtitle">The most important thing that can be done by the uses of JavaScript is building applications without web contexts</p>
+            </div>
+          </div>
+          <div class="uses__item" style="background-image: url('../img/uses/bgImg-10.jpg')">
+            <div class="uses__text">
+              <h3 class="uses__title">Flying Robots</h3>
+              <p class="uses__subtitle">Using Node Js a user can program a flying robot</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -65,7 +139,7 @@
         <div class="modal__img" id="modalImg"></div>
         <h3 class="modal__title" id="modalTitle">Modal title</h3>
         <p class="modal__content" id="modalContent">Modal content</p>
-        <p class="modal__secret" id="modalSecret">Modal secret</p>
+        <div class="modal__secret" id="modalSecret">Modal secret</div>
         <button class="modal__btn" id="modalBtn">close</button>
       </div>
     </div>
@@ -76,5 +150,7 @@
     
   </script>
   <script src="../js/particles.min.js"></script>
+  <script src="../js/jquery.magnific-popup.min.js"></script>
+  <script src="../js/slick.min.js"></script>
   <script src="../js/main.js"></script>
 </body>

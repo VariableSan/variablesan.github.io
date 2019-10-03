@@ -9,9 +9,11 @@ $(() => {
 
 	// offLinksProperty()	
 	activeHeadBurger()
-	particlesEffect()
-	showModalWindow()
+	// particlesEffect()
+	showModalWindow(magnificStatImg)
 	anchorToSection()
+	// magnificStatImg()
+	usesSlider()
 
 
 	function offLinksProperty(){
@@ -34,7 +36,7 @@ $(() => {
 		})
 	}
 
-	function showModalWindow(){
+	function showModalWindow(callback){
 		showModalBtn.on('click', function() {
 			modal.addClass('modal--shown').show()
 			body.addClass('hidden-scroll')
@@ -42,7 +44,8 @@ $(() => {
 			$('#modalImg').css('background-image', image)
 			$('#modalTitle').text($(this).prev().children('*[data-title]').text())
 			$('#modalContent').text($(this).prev().children('*[data-subtitle]').text())
-			$('#modalSecret').text($(this).prev().children('*[data-secret]').text())
+			$('#modalSecret').html($(this).prev().children('*[data-secret]').html())
+			callback()
 		})
 		modalBtn.on('click', function () {
 			modal.removeClass('modal--shown').hide()
@@ -57,6 +60,28 @@ $(() => {
 				scrollTop: $(target).offset().top
 			}, 800)
 		});
+	}
+
+	function magnificStatImg(){
+		$('.statistics__secret-img').magnificPopup({
+			type:'image',
+			mainClass: 'mfp-with-zoom',
+			zoom: {
+				enabled: true, // By default it's false, so don't forget to enable it
+				duration: 300, // duration of the effect, in milliseconds
+			}
+		})
+	}
+
+	function usesSlider() {
+		$('.uses__slider').slick({
+			mobileFirst: true,
+			arrows: false,
+			speed: 1000,
+			autoplay: true,
+			autoplaySpeed: 4000,
+			waitForAnimate: false
+		})
 	}
 
 })

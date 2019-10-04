@@ -41,9 +41,16 @@
         <div class="section-block history-block">
           <div class="history__img image" data-image></div>
           <div class="history__text">
-            <h3 class="history__title" data-title>title from history</h3>
-            <p class="history__subtitle" data-subtitle>subtitle from history</p>
-            <div class="history__secret" data-secret>secret from history</div>
+            <h3 class="history__title" data-title>History</h3>
+            <div class="history__subtitle" data-subtitle> 
+              <p>JavaScript was developed by Brendan Eich in 1995, which appeared in Netscape, a popular browser of that time. </p>
+              <p>The language was initially called LiveScript and was later renamed JavaScript. There are many programmers who think that JavaScript and Java are the same. In fact, JavaScript and Java are very much unrelated. Java is a very complex programming language whereas JavaScript is only a scripting language. The syntax of JavaScript is mostly influenced by the programming language C.</p>
+            </div>
+            <div class="history__secret" data-secret> 
+              <h4>How to Run JavaScript?</h4><span>Being a scripting language, JavaScript cannot run on its own. In fact, the browser is responsible for running JavaScript code. When a user requests an HTML page with JavaScript in it, the script is sent to the browser and it is up to the browser to execute it. The main advantage of JavaScript is that all modern web browsers support JavaScript. So, you do not have to worry about whether your site visitor uses Internet Explorer, Google Chrome, Firefox or any other browser. JavaScript will be supported. Also, JavaScript runs on any operating system including Windows, Linux or Mac. Thus, JavaScript overcomes the main disadvantages of VBScript (Now deprecated) which is limited to just IE and Windows. </span>
+              <h4>Tools You Need</h4><span>To start with, you need a text editor to write your code and a browser to display the web pages you develop. You can use a text editor of your choice including Notepad++, Visual Studio Code, Sublime Text, Atom or any other text editor you are comfortable with. You can use any web browser including Google Chrome, Firefox, Microsoft Edge, Internet Explorer etc.</span>
+              <h4>A Simple JavaScript Program</h4><span>You should place all your JavaScript code within script if you are keeping your JavaScript code within the HTML document itself. This helps your browser distinguish your JavaScript code from the rest of the code. As there are other client-side scripting languages (Example: VBScript), it is highly recommended that you specify the scripting language you use.  You have to use the type attribute within the script tag and set its value to text/javascript like this: script type="text/javascript"</span>
+            </div>
           </div>
           <button class="show-modal-btn">Learn more</button>
         </div>
@@ -54,10 +61,12 @@
         <div class="section-block statistics-block">
           <div class="statistics__img" data-image></div>
           <div class="statistics__text">
-            <h3 class="statistics__title" data-title>Title from statistics</h3>
-            <p class="statistics__subtitle" data-subtitle>subtitle from statistics</p>
+            <h3 class="statistics__title" data-title>Statistics</h3>
+            <p class="statistics__subtitle" data-subtitle>For beginners in the world of programming, the biggest dilemma is to decide where to begin or which language one should master for career benefits. At times, professional coders also face a situation where learning a new language seems more fruitful.</p>
             <div class="statistics__secret" data-secret>
-              <div class="statistics__secret-img" href="../img/statistics/2019-stat.png"><img src="../img/statistics/2019-stat.png"></div>
+              <div class="statistics__secret-img" href="../img/statistics/2019-stat.png" style="margin-top: 20px"><img src="../img/statistics/2019-stat.png"></div>
+              <h4>JavaScript is an essential</h4>
+              <p>JavaScript has not only managed to secure the seventh position on the list for the third time among the top programming languages, but it has also gained positive change in its ratings. All software developers these days use JavaScript in some way or the other. Used along with HTML and CSS, it is essential for front-end web development that creates interactive web pages and displays content dynamically to users. Over 90% of the websites use this language and it is one of the friendliest programming languages for learners, to begin with. So, there will be no shortage of opportunities if you master JavaScript. However, you will need to learn other supporting languages and frameworks to pursue a career as a front-end developer for desktop, mobile app or game development.</p>
             </div>
           </div>
           <button class="show-modal-btn">Learn more</button>
@@ -68,6 +77,7 @@
   <section class="section uses" id="uses">
     <div class="container">
       <div class="section-block uses-block">
+        <h3 class="uses__headline">Uses</h3>
         <div class="uses__slider">
           <div class="uses__item" style="background-image: url('../img/uses/bgImg-1.jpg')">
             <div class="uses__text">
@@ -155,9 +165,29 @@
       <div class="modal-block">
         <div class="modal__img" id="modalImg"></div>
         <h3 class="modal__title" id="modalTitle"></h3>
-        <p class="modal__content" id="modalContent"></p>
+        <div class="modal__content" id="modalContent"></div>
         <div class="modal__secret" id="modalSecret"></div>
         <button class="modal__btn" id="modalBtn">close</button>
+      </div>
+    </div>
+  </div>
+  <div class="about" id="about">
+    <div class="container">
+      <div class="about-block">
+        <h3 class="about__headline">About</h3>
+        <div class="about__references">
+          <h4 class="about__title">References:</h4><a class="about__link" href="https://www.guru99.com/introduction-to-javascript.html">Guru99</a><a class="about__link" href="https://fossbytes.com/most-popular-programming-languages/">Fossbytes</a>
+        </div>
+        <div class="about__projects">
+          <h4 class="about__title">Other project:</h4>
+          <div class="about__item"><a class="about__link" href="https://github.com/JudgementHC/Girls-in-armor">
+              <div class="about__wrapImg">
+                <div class="about__img" style="background-image: url('../img/about/1.png')"></div>
+              </div></a><a class="about__link" href="https://github.com/JudgementHC/MFS">
+              <div class="about__wrapImg">
+                <div class="about__img" style="background-image: url('../img/about/2.png')"></div>
+              </div></a></div>
+        </div>
       </div>
     </div>
   </div>

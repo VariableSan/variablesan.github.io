@@ -20,7 +20,6 @@ $(() => {
 		showModalWindow(magnificStatImg)
 		anchorToSection()
 		introAnchor()
-		// magnificStatImg()
 		usesSlider()
 		companiesSlider()
 	} 
@@ -64,7 +63,7 @@ $(() => {
 			let image = $(this).prevAll('*[data-image]').css('background-image')
 			$('#modalImg').css('background-image', image)
 			$('#modalTitle').text($(this).prev().children('*[data-title]').text())
-			$('#modalContent').text($(this).prev().children('*[data-subtitle]').text())
+			$('#modalContent').html($(this).prev().children('*[data-subtitle]').html())
 			$('#modalSecret').html($(this).prev().children('*[data-secret]').html())
 			callback()
 		})

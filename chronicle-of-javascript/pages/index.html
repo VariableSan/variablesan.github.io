@@ -19,11 +19,11 @@
       <div class="header-block">
         <div class="header__logo"><a class="header__sisi" href="/">SIS <span>&#8544</span></a></div>
         <div class="header__button"><span class="header__burger"></span></div>
-        <div class="header__items"><a class="header__link" href="#">Home</a><a class="header__link" href="#">Link</a><a class="header__link" href="#">Link</a><a class="header__link" href="#">Link</a><a class="header__link" href="#">Link</a></div>
+        <div class="header__items"><a class="header__link" href="#intro">Home</a><a class="header__link" href="#history">History</a><a class="header__link" href="#statistics">Statistics</a><a class="header__link" href="#uses">Uses</a><a class="header__link" href="#about">About</a></div>
       </div>
     </div>
   </header>
-  <div class="intro">
+  <div class="intro" id="intro">
     <div class="container-full">
       <div class="intro-block">
         <div class="particles-js" id="particles-js"></div>
@@ -36,7 +36,7 @@
     </div>
   </div>
   <div class="wrapper">
-    <div class="section history" id="history">
+    <section class="section history" id="history">
       <div class="container">
         <div class="section-block history-block">
           <div class="history__img image" data-image></div>
@@ -48,8 +48,8 @@
           <button class="show-modal-btn">Learn more</button>
         </div>
       </div>
-    </div>
-    <div class="section statistics">
+    </section>
+    <section class="section statistics" id="statistics">
       <div class="container">
         <div class="section-block statistics-block">
           <div class="statistics__img" data-image></div>
@@ -63,9 +63,9 @@
           <button class="show-modal-btn">Learn more</button>
         </div>
       </div>
-    </div>
+    </section>
   </div>
-  <div class="section uses">
+  <section class="section uses" id="uses">
     <div class="container">
       <div class="section-block uses-block">
         <div class="uses__slider">
@@ -132,14 +132,31 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
+  <section class="section companies">
+    <div class="container">
+      <div class="section-block companies-block">
+        <p class="companies__title">Projects made in javascript</p>
+        <div class="companies__slider">
+          <div class="companies__item" style="background-image: url('../img/companies/1.jpg')"></div>
+          <div class="companies__item" style="background-image: url('../img/companies/2.jpg')"></div>
+          <div class="companies__item" style="background-image: url('../img/companies/3.jpg')"></div>
+          <div class="companies__item" style="background-image: url('../img/companies/4.jpg')"></div>
+          <div class="companies__item" style="background-image: url('../img/companies/5.jpg')"></div>
+          <div class="companies__item" style="background-image: url('../img/companies/6.jpg')"></div>
+          <div class="companies__item" style="background-image: url('../img/companies/7.jpg')"></div>
+          <div class="companies__item" style="background-image: url('../img/companies/8.jpg')"></div>
+        </div>
+      </div>
+    </div>
+  </section>
   <div class="modal" id="modal">
     <div class="container">
       <div class="modal-block">
         <div class="modal__img" id="modalImg"></div>
-        <h3 class="modal__title" id="modalTitle">Modal title</h3>
-        <p class="modal__content" id="modalContent">Modal content</p>
-        <div class="modal__secret" id="modalSecret">Modal secret</div>
+        <h3 class="modal__title" id="modalTitle"></h3>
+        <p class="modal__content" id="modalContent"></p>
+        <div class="modal__secret" id="modalSecret"></div>
         <button class="modal__btn" id="modalBtn">close</button>
       </div>
     </div>

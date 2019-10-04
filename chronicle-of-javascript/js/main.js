@@ -1,3 +1,9 @@
+$(window).on('load', () => {
+	$('body, html').scrollTop(0)
+})
+
+
+
 // ready to start
 $(() => {
 	const showModalBtn = $('.show-modal-btn'),
@@ -7,13 +13,20 @@ $(() => {
 				body = $('body')
 
 
-	// offLinksProperty()	
-	activeHeadBurger()
-	// particlesEffect()
-	showModalWindow(magnificStatImg)
-	anchorToSection()
-	// magnificStatImg()
-	usesSlider()
+	try {
+		// offLinksProperty()	
+		activeHeadBurger()
+		particlesEffect()
+		showModalWindow(magnificStatImg)
+		anchorToSection()
+		introAnchor()
+		// magnificStatImg()
+		usesSlider()
+		companiesSlider()
+	} 
+	catch(e) {
+		console.log(e)
+	}
 
 
 	function offLinksProperty(){
@@ -22,6 +35,14 @@ $(() => {
 		})
 	}
 
+	function introAnchor(){
+		$('.intro__btn').on('click', function() {
+			let target = $(this).attr('href')
+			$('body, html').animate({
+				scrollTop: $(target).offset().top
+			}, 800)
+		});
+	}
 
 	function activeHeadBurger(){
 		$('.header__button').on('click', function() {
@@ -54,10 +75,15 @@ $(() => {
 	} 
 
 	function anchorToSection(){
-		$('*[href^="#"]').on('click', function() {
-			let target = $(this).attr('href')
+		$('.header__link').on('click', function() {
+			let target = $(this).attr('href'),
+					parentHeight = $(this).parent().height()
+
+			$('.header__burger').removeClass('header__burger_active')
+			$('.header__items').slideUp(300)
+
 			$('body, html').animate({
-				scrollTop: $(target).offset().top
+				scrollTop: $(target).offset().top - parentHeight
 			}, 800)
 		});
 	}
@@ -77,11 +103,22 @@ $(() => {
 		$('.uses__slider').slick({
 			mobileFirst: true,
 			arrows: false,
-			speed: 1000,
+			speed: 1500,
 			autoplay: true,
-			autoplaySpeed: 4000,
+			autoplaySpeed: 5000,
 			waitForAnimate: false
 		})
 	}
 
+	function companiesSlider(){
+		$('.companies__slider').slick({
+			mobileFirst: true,
+			arrows: false,
+			dots: true,
+			speed: 1000,
+			autoplay: true,
+			autoplaySpeed: 3000,
+			waitForAnimate: false
+		})
+	}
 })

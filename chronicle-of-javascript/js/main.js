@@ -1,9 +1,3 @@
-$(window).on('load', () => {
-	$('body, html').scrollTop(0)
-})
-
-
-
 // ready to start
 $(() => {
 	const showModalBtn = $('.show-modal-btn'),
@@ -104,8 +98,17 @@ $(() => {
 			arrows: false,
 			speed: 1500,
 			autoplay: true,
-			autoplaySpeed: 5000,
-			waitForAnimate: false
+			autoplaySpeed: 4000,
+			waitForAnimate: false,
+			responsive: [
+		    {
+		      breakpoint: 768,
+		      settings: {
+		        slidesToShow: 3,
+		        dots: true,
+		      }
+		    },
+			]
 		})
 	}
 
@@ -116,8 +119,17 @@ $(() => {
 			dots: true,
 			speed: 1000,
 			autoplay: true,
-			autoplaySpeed: 3000,
-			waitForAnimate: false
+			autoplaySpeed: 2000,
+			waitForAnimate: false,
+			responsive: [
+				{
+					breakpoint: 768,
+					settings: {
+						slidesToShow: 5,
+						autoplaySpeed: 1500
+					}
+				}
+			]
 		})
 	}
 })

@@ -9,7 +9,10 @@ $(() => {
 		images: '.nav-slider__img',
 		prevBtn: '.nav-slider_prevBtn',
 		nextBtn: '.nav-slider_nextBtn',
-		miniImg: '.second-nav__img'
+		miniImg: '.second-nav__img',
+		auto: true,
+		reverse: true,
+		interval: 2000,
 	})
 
 	descriptionTitle()
